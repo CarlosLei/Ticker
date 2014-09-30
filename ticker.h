@@ -6,7 +6,7 @@
 class Ticker : public QWidget
 {
     Q_OBJECT
-    Q_PROPERTY(QString Text READ Text WRITE setText)
+    Q_PROPERTY(QString text READ text WRITE setText)
 
 public:
     Ticker(QWidget *parent = 0);
